@@ -27,7 +27,7 @@ computer = int(computerchoice)
 
 print("")
 print("You choose " + str(RPS(player)).replace('RPS.','') + ".")
-print("You choose " + str(RPS(computer)).replace('RPS.','') + ".")
+print("Computer choose " + str(RPS(computer)).replace('RPS.','') + ".")
 print("")
 
 if player > computer:
