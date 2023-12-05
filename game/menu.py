@@ -28,7 +28,7 @@ def play_game(name="Player"):
             rps_play = rps(name)
             rps_play()
         else:
-            print("\n{name} See you next time")
+            print(f"\n{name} See you next time")
             sys.exit(f"Bye {name}!")
 
 
